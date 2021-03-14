@@ -1,8 +1,8 @@
 title: Settings
 data:
   site_name: 'Gabor''s Bloooooooooooooog'
-  personality: formal
-  show_signup: false
+  personality: casual
+  show_signup: true
   social:
     -
       name: Twitter

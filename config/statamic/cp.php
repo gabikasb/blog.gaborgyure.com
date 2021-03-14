@@ -38,9 +38,27 @@ return [
     */
 
     'widgets' => [
-        'getting_started',
-    ],
+       
+        [
+        'type' => 'collection',
+        'collection' => 'blog', // name of your collection
+        'width' => 100,
+        'limit' => 10,
+        'sort' => 'title:desc'
+        ],
 
+        [
+            'type' => 'form',
+            'form' => 'contact',
+            'fields' => ['name','email'],
+            'width' => 100,
+            'limit' => 20,
+        ],
+        [
+            'type' => 'updater',
+            'width' => '100',
+        ],
+    ], 
     /*
     |--------------------------------------------------------------------------
     | Date Format

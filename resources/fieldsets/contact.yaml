@@ -1,0 +1,33 @@
+title: contact
+fields:
+  -
+    handle: name
+    field:
+      theme: material
+      mode: htmlmixed
+      indent_type: tabs
+      indent_size: 4
+      key_map: default
+      line_numbers: true
+      line_wrapping: true
+      display: name
+      type: code
+      icon: code
+      instructions: 'your name in code'
+      listable: hidden
+      validate:
+        - required
+        - string
+  -
+    handle: email
+    field:
+      input_type: email
+      antlers: true
+      display: email
+      type: text
+      icon: text
+      instructions: 'your valid nonspam mail'
+      listable: hidden
+      validate:
+        - required
+        - email
