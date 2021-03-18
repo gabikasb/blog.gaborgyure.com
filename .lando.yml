@@ -1,0 +1,4 @@
+name: blog.gaborgyure.com
+recipe: laravel
+config:
+  webroot: public
