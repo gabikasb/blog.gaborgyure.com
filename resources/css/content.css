@@ -1,4 +1,9 @@
 .content {
+
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
     h1 {
         @apply font-display uppercase font-bold leading-none;
         margin-bottom: 1em;
