@@ -9,3 +9,8 @@ sort_dir: asc
 date_behavior:
   past: public
   future: private
+structure:
+  root: false
+  tree:
+    -
+      entry: 00b12703-ffa1-4b6a-a3c1-e1e75e21b1cf
