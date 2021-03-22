@@ -16,3 +16,7 @@ data:
       name: Email
       url: 'mailto:gabor@gaborgyure.com'
       icon: site/social-icons/email.svg
+    -
+      name: Linkedin
+      url: 'https://linkedin.com/in/gyuregabor'
+      icon: site/social-icons/linkedin.svg
