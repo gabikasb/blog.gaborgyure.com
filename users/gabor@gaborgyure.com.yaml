@@ -12,9 +12,7 @@ preferences:
     blog:
       columns:
         - title
-        - slug
         - date
-        - author
         - hero_image
       per_page: 100
   forms:
