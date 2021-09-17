@@ -1,7 +1,7 @@
 title: Settings
 data:
   site_name: 'Gabor''s things'
-  personality: casual
+  personality: formal
   show_signup: false
   social:
     -
@@ -20,3 +20,7 @@ data:
       name: Linkedin
       url: 'https://linkedin.com/in/gyuregabor'
       icon: site/social-icons/linkedin.svg
+    -
+      name: null
+      url: null
+      icon: null
